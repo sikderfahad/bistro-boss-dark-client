@@ -12,7 +12,9 @@ const useCart = () => {
     queryFn: async () => {
       const token = localStorage.getItem("access-token");
       const res = await fetch(
-        `https://bistro-boss-dark-server.vercel.app/carts?email=${user?.email}`,
+        `https://bistro-boss-dark-server.vercel.app/carts?email=${
+          user?.email && user.email
+        }`,
         {
           headers: {
             authorization: `bearer ${token}`,

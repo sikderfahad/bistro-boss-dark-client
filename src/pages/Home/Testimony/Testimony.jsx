@@ -24,7 +24,7 @@ const Testimony = () => {
         borderOpecity={true}
       ></Title>
       <Carousel
-        // autoPlay="true"
+        autoPlay="true"
         infiniteLoop={true}
         swipeScrollTolerance={100}
         useKeyboardArrows={true}

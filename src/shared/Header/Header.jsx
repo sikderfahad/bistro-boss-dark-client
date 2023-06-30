@@ -64,7 +64,7 @@ const Header = () => {
   const { user, loading, logOut } = useAuth();
   const [isHover, setIsHover] = useState(false);
   const [cart, refetch, isLoading] = useCart();
-  console.log(cart);
+  // console.log(cart);
   refetch();
 
   const handledLogout = () => {
@@ -85,7 +85,7 @@ const Header = () => {
 
   const [isAdmin] = useIsAdmin();
   const admin = isAdmin?.admin;
-  console.log(admin);
+  // console.log(admin);
 
   const defaultNav = [
     { path: "/", label: "Home" },

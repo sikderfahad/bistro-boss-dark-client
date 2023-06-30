@@ -10,14 +10,14 @@ import googleIcon from "../../assets/icon/google-icon.png";
 const OtherLogin = ({ login, signup, from }) => {
   const { googleUser } = useContext(AuthContext);
   const navigate = useNavigate();
-  console.log(from);
+  // console.log(from);
 
   const handledGoogleLogin = () => {
     googleUser()
       .then((res) => {
         const user = res.user;
 
-        console.log(user);
+        // console.log(user);
 
         const saveUser = {
           name: user.displayName,
