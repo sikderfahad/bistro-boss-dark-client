@@ -1,0 +1,47 @@
+.logo p {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.38em;
+
+  color: #ffffff;
+}
+
+.logo h1 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 43px;
+
+  color: #ffffff;
+}
+.header {
+  background: rgba(21, 21, 21, 0.5);
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  backdrop-filter: blur(10px);
+}
+
+.text-linear {
+  color: transparent !important;
+  background-clip: text !important;
+  background-image: linear-gradient(
+    to right,
+    rgb(244 63 94),
+    rgb(139 92 246)
+  ) !important;
+}
+
+.active {
+  /* font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-500 to-violet-500 */
+  font-weight: 600;
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(to right, rgb(244 63 94), rgb(139 92 246));
+  color: #eeff25 !important;
+  background: black !important;
+}
+.link-default:hover {
+  /* background: transparent !important;
+  color: #eeff25; */
+}

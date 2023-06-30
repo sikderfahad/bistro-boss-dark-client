@@ -1,0 +1,25 @@
+.btn-category-overlay {
+  height: 0%;
+  left: 0;
+  bottom: 0;
+  transition: 0.3s ease-in;
+}
+.btn-category:hover .btn-category-overlay {
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  /* background-image: linear-gradient(to right, rgb(244 63 94), rgb(139 92 246)); */
+}
+.btn-category {
+  transition: 0.3s ease-in;
+}
+.btn-category:hover {
+  color: black;
+}
+.btn-category span {
+  transition: 0.3s ease-in;
+}
+.btn-category:hover span {
+  color: black;
+}

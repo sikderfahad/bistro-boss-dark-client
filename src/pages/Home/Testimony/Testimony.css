@@ -1,0 +1,27 @@
+.control-prev.control-arrow:before {
+  border-right: 16px solid #fff !important;
+}
+.control-next.control-arrow:before {
+  border-left: 16px solid #fff !important;
+}
+.carousel.carousel-slider .control-arrow:hover {
+  background: transparent;
+}
+
+.testimony-rating {
+  box-shadow: 0 0 10px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex !important;
+  width: fit-content !important;
+  margin: auto !important;
+  gap: 10px !important;
+}
+
+.testimony-star {
+  transition: 0.2s ease;
+}
+
+.testimony-star:hover {
+  transform: rotate(45deg);
+}

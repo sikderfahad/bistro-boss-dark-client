@@ -1,0 +1,4 @@
+.table :where(thead, tbody) :where(tr:not(:last-child)),
+.table :where(thead, tbody) :where(tr:first-child:last-child) {
+  --tw-border-opacity: 0.5 !important;
+}

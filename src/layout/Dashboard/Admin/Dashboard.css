@@ -1,0 +1,4 @@
+.divider::before,
+.divider::after {
+  border: 1px solid white;
+}

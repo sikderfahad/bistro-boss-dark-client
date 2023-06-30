@@ -1,0 +1,33 @@
+.swiper-slider img {
+  border-radius: 10px;
+}
+.swiper-overlay {
+  width: 100%;
+  height: 0%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.515);
+  transition: 0.3s ease-in;
+  border-radius: 10px;
+}
+
+.swiper-slider:hover .swiper-overlay {
+  height: 100%;
+}
+
+.swiper-title {
+  transition: 0.5s ease-in;
+}
+
+.swiper-slider:hover .swiper-title {
+  bottom: 50%;
+}
+
+.swiper {
+  padding-bottom: 50px !important;
+}
+.swiper-pagination-bullet {
+  background: white !important;
+  opacity: 1;
+}

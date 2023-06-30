@@ -1,0 +1,4 @@
+.swal2-actions {
+  display: flex;
+  gap: 12px !important;
+}
